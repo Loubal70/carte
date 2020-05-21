@@ -22,14 +22,13 @@ var lon = 2.349903;
 var villes = { // seules les villes ajoutées dans ce tableau sont affichées sur la carte
   "Courrières": { "lat": 50.45, "lon": 2.9333 },
   "Seoul": { "lat": 37.566535, "lon":  126.9779692 },
-  "Le Caire": { "lat": 30.044, "lon": 31.235 },
-  "Quimper": { "lat": 48.000, "lon": -4.100 },
-  "Quimper": { "lat": 48.000, "lon": -4.100 },
+  "saintpeter": { "lat": 59.9339, "lon": 30.3061 },
+  "Bayonne": { "lat": 43.500, "lon": -1.467 },
+  "LeCaire": { "lat": 30.044, "lon": 31.235 },
   "Tokyo": { "lat": 35.709026, "lon": 139.731992 },
   "Berlin": { "lat": 52.51, "lon": 13.41 },
   "Bayonne": { "lat": 43.500, "lon": -1.467 }
 };
-
 
 window.onload = function(){
   // Fonction d'initialisation qui s'exécute lorsque le DOM est chargé
@@ -65,7 +64,7 @@ window.onload = function(){
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://lh3.googleusercontent.com/proxy/9DVhOPSsH_dglocuVPj3nAmxAwh2lRJmED6asCIHRwwPrrWq5R2BvN2CXqEQs9BGvy4jIRyucI1cJIou5rWZM4phE4mjC7io0vAYsTBkyX2iGYZN7lGKwxnxES19RH-JqhF78Zb9tGAbUVLVlfq-JgVeHYF_X0X4w7ZYn5tgT3kEEIeXqS2qBACyTZHzHJUlDiOwId8-_ZBiIbgjv7kZB8TK9NK3ksaL9cXWQ3UJqw" class="img-responsive">
+            <img src="https://lh3.googleusercontent.com/proxy/i-yPQ7ImX1QgFC00gRNQd86RxnCObwSzuLPZUtK5hYhck5HjW4ETGNFdurna5r6_VqUwOkNHsnZvK0wgp2a_m7Xtj0vlgATe-AYT2AYPfk_YjM_PpEZ_79qyFqIgnY_knVW_E53XOU0lojF7UZFumtU5muoxOGxU--Drz51sWOVx-La7MchFYbPwFZPqW8qeSRWEIwQdlffWl4jh9G_eDGUEiTBE4eDotHI_gnrUZQ" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
             Courrières est une commune française située dans le département du Pas-de-Calais en région Hauts-de-France. Elle fait partie de la communauté d'agglomération d'Hénin-Carvin qui regroupe 14 communes, soit 125 000 habitants. Ses habitants sont appelés les Courriérois.
@@ -94,22 +93,22 @@ window.onload = function(){
       </div>
 
 
-      <!-- Travail : Claire ________-->
+      <!-- Travail : Claire Goossaert-->
 
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Quimper" class="card bg-dark m-2">
+        <div id="ville_saintpeter" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
-            <div class="card-title h5">Quimper</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-title h5">Saint-Pétersbourg</div>
+            <div class="card-subtitle text-gray">Ville en Russie</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/320px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg" class="img-responsive">
+            <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6f/68/63.jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Insérez description...
+            Saint-Pétersbourg est un port de Russie sur la Baltique. Capitale impériale pendant 2 siècles, la ville fut fondée en 1703 par Pierre le Grand, immortalisé par la célèbre statue du Cavalier de bronze. Demeurée le centre culturel de la Russie, la ville compte des établissements tels le théâtre Mariinsky, temple de l'opéra et de la danse, et le musée Russe, avec sa collection d'œuvres d'art russes, des icônes orthodoxes aux tableaux signés Kandinsky.
           </div>
         </div>
       </div>
@@ -137,7 +136,7 @@ window.onload = function(){
       <!-- Travail : Guillaume Hochart -->
 
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
-        <div id="ville_Le_Caire" class="card bg-dark m-2">
+        <div id="ville_LeCaire" class="card bg-dark m-2">
           <!--  l'id de la forme ville_A est nécessaire pour que le lien vers
                  la ville Afonctionne -->
           <div class="card-header">
@@ -186,7 +185,7 @@ window.onload = function(){
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://greatruns.com/wp-content/uploads/2016/11/berlin-sites-320x200.jpg">
+            <img src="https://greatruns.com/wp-content/uploads/2016/11/berlin-sites-320x200.jpg" alt="Berlin" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
             Divisé en deux pendant la guerre froide, le pays a adopté la porte de Brandebourg du XVIIIe siècle comme symbole de sa réunification, c'est une decouverte historique. La ville est aussi réputée pour sa scène artistique et ses monuments modernes, comme la Philharmonie de Berlin, un bâtiment doré construit en 1963 dont le toit présente une forme géométrique particulière.
@@ -213,6 +212,7 @@ window.onload = function(){
           </div>
         </div>
       </div>
+
     </div>
 
     <p class="footer bg-secondary text-center">
